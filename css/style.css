@@ -60,6 +60,15 @@ img {
   width: 1170px;
 }
 
+/* Typography  */
+.section-header {
+  margin-left: 3rem;
+  font-family: "Muller", sans-serif;
+  font-weight: 400;
+  color: #333;
+  font-size: 1.5rem;
+}
+
 /* Header Styles  */
 
 .header-logo {
@@ -120,6 +129,7 @@ img {
 }
 
 .header-btn {
+  padding: 0.7rem;
   background-color: #fff;
   color: #CC9933;
   border: 1px solid #CC9933;
@@ -128,4 +138,32 @@ img {
 
 .header-btn-margin {
   margin-right: 2rem;
+}
+
+/* Special Offer  */
+.offer-cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  background-repeat: no-repeat;
+}
+
+.offer-cards-left {
+  flex: 1 1 100%;
+  width: 50%;
+}
+
+.l-card-1 {
+  background-image: url("../img/offer-1.png");
+  background-repeat: no-repeat;
+}
+.l-card-2 {
+  background-image: url("../img/offer-2.png");
+  background-repeat: no-repeat;
+}
+.r-card {
+  flex-grow: 2;
+  background-repeat: no-repeat;
+  background-image: url("../img/offer-3.png");
 }
