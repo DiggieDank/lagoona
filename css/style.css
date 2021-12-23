@@ -157,10 +157,12 @@ img {
 .l-card-1 {
   background-image: url("../img/offer-1.png");
   background-repeat: no-repeat;
+  height: 17rem;
 }
 .l-card-2 {
   background-image: url("../img/offer-2.png");
   background-repeat: no-repeat;
+  height: 17rem;
 }
 .r-card {
   flex-grow: 2;
