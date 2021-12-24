@@ -145,13 +145,12 @@ img {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 50%;
+  width: 36rem;
   background-repeat: no-repeat;
 }
 
 .offer-cards-left {
   flex: 1 1 100%;
-  width: 50%;
 }
 
 .l-card-1 {
@@ -165,6 +164,7 @@ img {
   height: 17rem;
 }
 .r-card {
+  width: auto;
   flex-grow: 2;
   background-repeat: no-repeat;
   background-image: url("../img/offer-3.png");
